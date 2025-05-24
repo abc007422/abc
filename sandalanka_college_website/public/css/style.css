@@ -1,0 +1,12 @@
+/* Main stylesheet for Sandalanka Central College website */
+
+body {
+    /* font-family: sans-serif; */ /* Let Bootstrap's font stack take precedence */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Custom styles can be added here if Bootstrap defaults need overriding or for new components. */
+/* For example, if a specific branding color is needed for h1, h2, etc. beyond navbar. */

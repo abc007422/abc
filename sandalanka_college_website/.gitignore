@@ -1,0 +1,32 @@
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*~
+Thumbs.db
+
+# Local configuration (if a separate local config override was ever used)
+# Example: config/local.config.php
+
+# Log files
+*.log
+logs/
+error_log # PHP error log often named this
+
+# User uploaded content - The structure of these directories is versioned,
+# but typically, you wouldn't version the actual user-uploaded files in a live application's repo.
+# For this project, example files might be committed, or these lines can be uncommented by the user
+# if they wish to ignore all content within.
+# public/uploads/papers/*
+# !public/uploads/papers/.gitkeep
+# public/uploads/timetables/*
+# !public/uploads/timetables/.gitkeep
+
+# Dependency directories (if any were to be added via Composer or npm)
+# vendor/
+# node_modules/
+
+# Local development server specific files (e.g. PHP built-in server)
+.htrouter.php
